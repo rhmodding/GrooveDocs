@@ -8,15 +8,22 @@ _Function address: 0x7100514b90_
 ``` 
 Usage - to be added when tools are developed
 ```
-Rest for a certain amount of `ticks`. 480 ticks = 1 beat.
+Rest for a certain amount of ticks. 480 ticks = 1 beat.
+|Argument|Type|Description|
+|--------|----|-----------|
+|`ticks`|`int`|The number of ticks to rest for|
 
-### `FUN_71001366e0(int: ticks, float: opacity)` - Rest
+### `FUN_71001366e0(ticks, opacity)` - Fade Gameplay
 _Function address: 0x71001366e0_
 ```
 Usage - to be added when tools are developed
 ```
 Fade the gameplay's visuals to `opacity` over `ticks`. Opacity ranges from 0 to 1.<br>
 Opacity 0 = black screen.
+|Argument|Type|Description|
+|--------|----|-----------|
+|`opacity`|`float`|The opacity of the gameplay|
+|`ticks`|`int`|The duration of the fade|
 
 ### `FUN_71001399F0()` - Initialize Subtitlebox
 _Function address: 0x71001399F0_
