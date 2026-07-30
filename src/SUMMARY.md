@@ -8,3 +8,4 @@
 # Commands
 - [Global Commands](commands/global.md)
 - [Hoop Trundling (SceneRing)](commands/scenering.md)
+- [Can Do (SceneHammer)](commands/scenehammer.md)

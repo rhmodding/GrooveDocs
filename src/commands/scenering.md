@@ -1,6 +1,6 @@
 # Hoop Trundling (SceneRing)
 
-**Used in**: _Hoop Trundling_, _Remix 1_
+**Used in**: _Hoop Trundling_, _Remix 1_, _Remix 8_, _Hoop Trundling 2_, _Remix 9_, _Remix 19_, _Remix 20_, _Cast of Characters_
 
 ## Commands
 ### `FUN_7100217610()` - Hoop
