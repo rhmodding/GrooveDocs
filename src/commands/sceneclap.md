@@ -10,8 +10,8 @@ Usage - to be added when tools are developed
 ```
 Plays the "One, two, three" count-in. The count-in starts four beats after the command.
 
-### `FUN_710016b470()` - Count-Out
-_Function address: 0x710016b470_
+### `FUN_7100164b70()` - Count-Out
+_Function address: 0x7100164b70_
 ```
 Usage - to be added when tools are developed
 ```

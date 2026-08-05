@@ -3,8 +3,8 @@
 These commands can be used in any scene.
 
 ## Commands
-### `FUN_7100514D70(ticks)` - Rest
-_Function address: 0x7100514b90_
+### `FUN_7100514dc0(ticks)` - Rest
+_Function address: 0x7100514dc0_
 ``` 
 Usage - to be added when tools are developed
 ```
@@ -13,12 +13,12 @@ Rest for a certain amount of ticks. 480 ticks = 1 beat.
 |--------|----|-----------|
 |`ticks`|`int`|The number of ticks to rest for|
 
-### `FUN_71001366e0(ticks, opacity)` - Fade Gameplay
+### `FUN_71001366e0(ticks, opacity)` - Fade Screen
 _Function address: 0x71001366e0_
 ```
 Usage - to be added when tools are developed
 ```
-Fade the gameplay's visuals to `opacity` over `ticks`. Opacity ranges from 0 to 1.<br>
+Fade the screen to `opacity` over `ticks`. Opacity ranges from 0 to 1.<br>
 Opacity 0 = black screen.
 |Argument|Type|Description|
 |--------|----|-----------|
