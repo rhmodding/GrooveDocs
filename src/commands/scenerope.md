@@ -8,7 +8,7 @@ _Function address: 0x7100226aa0_
 ```
 Usage - to be added when tools are developed
 ```
-A single jump input. The input is four beats after the command. Automatically plays the "Jump, jump!" count-in two beat after the command if this is the first time used in a level, or if a previous Continuous Sweeping command occured with a count-out.
+A single jump input. The input is four beats after the command. Automatically plays the "Jump, jump!" count-in two beats after the command if this is the first time used in a level, or if a previous Jump command occured with a count-out.
 |Argument|Type|Description|
 |--------|----|-----------|
 |`ticks`|`int`|The number of ticks that the jump animation lasts for. Always 480 in-game.|

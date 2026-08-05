@@ -8,7 +8,7 @@ _Function address: 0x710015a560_
 ```
 Usage - to be added when tools are developed
 ```
-Keep-the-beat sweeping for a given period, starting five beats after the command. Automatically plays the "Un, go!" count-in two beats after the command if this is the first time used in a level, or if a previous Continuous Sweeping command occured with a count-out.
+Keep-the-beat sweeping for a given period, starting four beats after the command (with the first input being five beats after the command). Automatically plays the "Un, go!" count-in two beats after the command if this is the first time used in a level, or if a previous Continuous Sweeping command occured with a count-out.
 |Argument|Type|Description|
 |--------|----|-----------|
 |`beats`|`int`|The number of beats to automatically sweep for after two beats.<br>Starts on a rest.<br>("Un, go!" rest, sweep, rest, sweep, and so on...)|

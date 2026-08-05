@@ -25,7 +25,7 @@ Usage - to be added when tools are developed
 A single high-five input. The input is four beats after the command.
 |Argument|Type|Description|
 |--------|----|-----------|
-|`type`|`int`|The type of high-five animation and sound. 0 is a regular high-five,<br>1 is a double high-five, and 2 is a triple high-five.<br>The standalone clap should only use a value of 0.|
+|`type`|`int`|The type of high-five animation and sound. 0 is a regular high-five,<br>1 is a double high-five, and 2 is a triple high-five.<br>A regular high-five should only use a value of 0.|
 
 ### `FUN_71001634d0()` - Pre-Double High-Five
 _Function address: 0x71001634d0_
