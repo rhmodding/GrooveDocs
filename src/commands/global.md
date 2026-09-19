@@ -22,7 +22,7 @@ Fade the screen to `opacity` over `ticks`. Opacity ranges from 0 to 1.<br>
 Opacity 0 = black screen.
 |Argument|Type|Description|
 |--------|----|-----------|
-|`opacity`|`float`|The opacity of the gameplay|
+|`opacity`|`float`|The opacity of the screen|
 |`ticks`|`int`|The duration of the fade|
 
 ### `FUN_71001399F0()` - Initialize Subtitlebox
