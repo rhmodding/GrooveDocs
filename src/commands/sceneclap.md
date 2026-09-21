@@ -53,4 +53,4 @@ _Function address: 0x71001642F0_
 ```
 Usage - to be added when tools are developed
 ```
-A triple high-five pattern. It requires a Pre-Tripled High-Five command before. The first sound effect is 1 beat after the command, and the first input is 3.5 beats after the command. Here we go!
+A triple high-five pattern. It requires a Pre-Triple High-Five command before. The first sound effect is 1 beat after the command, and the first input is 3.5 beats after the command. Here we go!
