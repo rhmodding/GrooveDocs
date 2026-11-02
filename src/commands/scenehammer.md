@@ -11,7 +11,7 @@ Usage - to be added when tools are developed
 Spawns a red can.
 |Argument|Type|Description|
 |--------|----|-----------|
-|`landTicks`|`int`|If the can is thrown, the timing of the can landing.<br>- If this is positive, this is the ticks before the hit position.<br>- If this is negative, this is the ticks after the start of<br>the conveyor belt.|
+|`landTicks`|`int`|If the can is thrown, the timing of the can landing.<br>- If this is negative, this is the ticks before the hammer liftup.<br>- If this is positive, this is the ticks after the start of<br>the conveyor belt.|
 |`throw`|`bool`|Whether the can should be thrown or not.|
 |`hitTicks`|`bool`|How many ticks from spawning the can until the hammer liftup.|
 
@@ -23,6 +23,6 @@ Usage - to be added when tools are developed
 Spawns a blue can.
 |Argument|Type|Description|
 |--------|----|-----------|
-|`landTicks`|`int`|If the can is thrown, the timing of the can landing.<br>- If this is positive, this is the ticks before the hit position.<br>- If this is negative, this is the ticks after the start of<br>the conveyor belt.|
+|`landTicks`|`int`|If the can is thrown, the timing of the can landing.<br>- If this is negative, this is the ticks before the hammer liftup.<br>- If this is positive, this is the ticks after the start of<br>the conveyor belt.|
 |`throw`|`bool`|Whether the can should be thrown or not.|
 |`hitTicks`|`bool`|How many ticks from spawning the can until the hammer liftup.|
