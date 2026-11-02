@@ -8,13 +8,13 @@ _Function address: 0x710015a560_
 ```
 Usage - to be added when tools are developed
 ```
-Keep-the-beat sweeping for a given period, starting 4 beats after the command (with the first input being 5 beats after the command). Automatically plays the "Un, go!" count-in 2 beats after the command if this is the first time used in a level, or if a previous Continuous Sweeping command occured with a count-out.
+Keep-the-beat sweeping for a given period, starting 4 beats after the command (with the first input being 5 beats after the command). The "Un, go!" count-in is played 2 beats after the command if enabled.
 |Argument|Type|Description|
 |--------|----|-----------|
 |`beats`|`int`|The number of beats to repeatedly sweep for.<br>Starts on a rest.<br>("Un, go!" rest, sweep, rest, sweep, and so on...)|
 |`playUn`|`bool`|Toggles if the "un" sound should play on the rests while sweeping.|
-|`fadeUn`|`bool`|Toggles if the "un" sound effect should gradually fade out if<br>it was toggled on.|
-|`countout`|`bool`|Toggles the "Three, two, one!" count-out.|
+|`countin`|`bool`|Toggles if the "Un, go!" count-in should be played.|
+|`countout`|`bool`|Toggles if the "Three, two, one!" count-out should be played.|
 
 ### `FUN_710015ab00()` - Triple Sweep
 _Function address: 0x710015ab00_

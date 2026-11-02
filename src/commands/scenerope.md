@@ -11,7 +11,7 @@ Usage - to be added when tools are developed
 A single jump input. The input is four beats after the command. Automatically plays the "Jump, jump!" count-in two beats after the command if this is the first time used in a level, or if a previous Jump command occured with a count-out.
 |Argument|Type|Description|
 |--------|----|-----------|
-|`ticks`|`int`|The number of ticks that the jump animation lasts for. Always 480 in-game.|
+|`ticks`|`int`|The number of ticks that the jump animation lasts for. Always `0x1e0` ticks (1 beat) in-game.|
 |`countout`|`bool`|Toggles the "Three, two, one, stop!" count-out.|
 
 ### `FUN_71002276a0(ticks, stopRope, cutCue)` - Double-Under
@@ -22,6 +22,6 @@ Usage - to be added when tools are developed
 A double-under pattern. The first sound effect is two beats after the command, and the first input is four beats after the command.
 |Argument|Type|Description|
 |--------|----|-----------|
-|`ticks`|`int`|The number of ticks that the jump animation lasts for. Always 480 in-game.|
+|`ticks`|`int`|The number of ticks that the jump animation lasts for. Always `0x1e0` ticks (1 beat) in-game.|
 |`stopRope`|`bool`|Toggles if the rope should be stopped after the double-under or not.|
 |`cutCue`|`bool`|Toggles if the final voice line of the cue should be cut off.<br>Seemingly unused.|
